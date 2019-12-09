@@ -1,0 +1,22 @@
+<lab id="1">
+  <employees id="2">
+    <employee id="3">
+      <name>Edinson Cavani</name>
+      <job>Forward</job>
+      <salary>4.0E7</salary>
+      <role>Research Associate</role>
+      <progressUpdates id="4"/>
+    </employee>
+    <employee id="5">
+      <name>Angel Di Maria</name>
+      <job>Right Wing</job>
+      <salary>3.5E7</salary>
+      <role>Research Assistant</role>
+      <progressUpdates id="6"/>
+    </employee>
+  </employees>
+  <items id="7"/>
+  <progressUpdates id="8"/>
+  <transactions id="9"/>
+  <fundingAccount id="10"/>
+</lab>

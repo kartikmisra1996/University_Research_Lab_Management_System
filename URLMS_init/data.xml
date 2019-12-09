@@ -1,0 +1,36 @@
+<lab id="1">
+  <employees id="2">
+    <employee id="3">
+      <name>Edinson Cavani</name>
+      <job>Forward</job>
+      <salary>4.0E7</salary>
+      <role>Research Associate</role>
+      <progressUpdates id="4"/>
+    </employee>
+    <employee id="5">
+      <name>Angel Di Maria</name>
+      <job>Right Wing</job>
+      <salary>3.5E7</salary>
+      <role>Research Assistant</role>
+      <progressUpdates id="6"/>
+    </employee>
+    <employee id="7">
+      <name>hvjjhkjbhv</name>
+      <job>kbhvjbk</job>
+      <salary>5000.0</salary>
+      <role>vhjbkl</role>
+      <progressUpdates id="8"/>
+    </employee>
+    <employee id="9">
+      <name>kiren </name>
+      <job>intern</job>
+      <salary>200.0</salary>
+      <role>janitor</role>
+      <progressUpdates id="10"/>
+    </employee>
+  </employees>
+  <items id="11"/>
+  <progressUpdates id="12"/>
+  <transactions id="13"/>
+  <fundingAccount id="14"/>
+</lab>

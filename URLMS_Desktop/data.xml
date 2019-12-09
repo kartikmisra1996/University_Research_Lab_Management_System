@@ -1,0 +1,108 @@
+<lab id="1">
+  <employees id="2">
+    <employee id="3">
+      <name>Jean-Pierre</name>
+      <job>Chemist</job>
+      <salary>1000.0</salary>
+      <role>Research Associate</role>
+      <id>1.23456889E8</id>
+      <progressUpdates id="4">
+        <ca.mcgill.ecse321.URLMS.model.ProgressUpdate id="5">
+          <objective>Finish report on water pollution test</objective>
+          <actualWork>Water pollution test completed</actualWork>
+          <date id="6">2017-12-11</date>
+        </ca.mcgill.ecse321.URLMS.model.ProgressUpdate>
+        <ca.mcgill.ecse321.URLMS.model.ProgressUpdate id="7">
+          <objective>Start last segment on air pollution test</objective>
+          <actualWork>4/5 sections completed on air pollution tests</actualWork>
+          <date id="8">2017-12-11</date>
+        </ca.mcgill.ecse321.URLMS.model.ProgressUpdate>
+      </progressUpdates>
+    </employee>
+    <employee id="9">
+      <name>Pierre-Andre</name>
+      <job>Physicist</job>
+      <salary>800.0</salary>
+      <role>Reseach Assistant</role>
+      <id>9.87654321E8</id>
+      <progressUpdates id="10">
+        <ca.mcgill.ecse321.URLMS.model.ProgressUpdate id="11">
+          <objective>Finish report on water pollution test</objective>
+          <actualWork>Water pollution test completed</actualWork>
+          <date id="12">2017-12-11</date>
+        </ca.mcgill.ecse321.URLMS.model.ProgressUpdate>
+        <ca.mcgill.ecse321.URLMS.model.ProgressUpdate id="13">
+          <objective>Start last segment on air pollution test</objective>
+          <actualWork>4/5 sections completed on air pollution tests</actualWork>
+          <date id="14">2017-12-11</date>
+        </ca.mcgill.ecse321.URLMS.model.ProgressUpdate>
+        <ca.mcgill.ecse321.URLMS.model.ProgressUpdate id="15">
+          <objective>Latest PU</objective>
+          <actualWork>work done</actualWork>
+          <date id="16">2017-12-11</date>
+        </ca.mcgill.ecse321.URLMS.model.ProgressUpdate>
+      </progressUpdates>
+    </employee>
+  </employees>
+  <items id="17">
+    <ca.mcgill.ecse321.URLMS.model.Supply id="18">
+      <name>Paper (500 sheets)</name>
+      <price>10.0</price>
+      <quantity>5</quantity>
+      <isAvailable>true</isAvailable>
+    </ca.mcgill.ecse321.URLMS.model.Supply>
+    <ca.mcgill.ecse321.URLMS.model.Equipment id="19">
+      <name>Super Computer</name>
+      <price>30000.0</price>
+      <quantity>2</quantity>
+    </ca.mcgill.ecse321.URLMS.model.Equipment>
+  </items>
+  <progressUpdates id="20"/>
+  <transactions id="21">
+    <ca.mcgill.ecse321.URLMS.model.Paystub id="22">
+      <date id="23">2017-12-11</date>
+      <description>Payment to Jean-Pierre, ID: 1.23456889E8</description>
+      <amount>1000.0</amount>
+      <employeeID>1.23456889E8</employeeID>
+    </ca.mcgill.ecse321.URLMS.model.Paystub>
+    <ca.mcgill.ecse321.URLMS.model.Paystub id="24">
+      <date reference="23"/>
+      <description>Payment to Pierre-Andre, ID: 9.87654321E8</description>
+      <amount>800.0</amount>
+      <employeeID>9.87654321E8</employeeID>
+    </ca.mcgill.ecse321.URLMS.model.Paystub>
+    <ca.mcgill.ecse321.URLMS.model.Transaction id="25">
+      <date id="26">2017-12-11</date>
+      <description>Type: Supplies, Name: Paper (500 sheets), Amount: 5 ,Total Cost: 50.0</description>
+      <amount>50.0</amount>
+    </ca.mcgill.ecse321.URLMS.model.Transaction>
+    <ca.mcgill.ecse321.URLMS.model.Transaction id="27">
+      <date id="28">2017-12-11</date>
+      <description>Type: Equipment, Name: Super Computer, Amount: 2 ,Total Cost: 60000.0</description>
+      <amount>60000.0</amount>
+    </ca.mcgill.ecse321.URLMS.model.Transaction>
+    <ca.mcgill.ecse321.URLMS.model.Paystub id="29">
+      <date id="30">2017-12-11</date>
+      <description>Payment to Jean-Pierre, ID: 1.23456889E8</description>
+      <amount>1000.0</amount>
+      <employeeID>1.23456889E8</employeeID>
+    </ca.mcgill.ecse321.URLMS.model.Paystub>
+    <ca.mcgill.ecse321.URLMS.model.Paystub id="31">
+      <date id="32">2017-12-11</date>
+      <description>Payment to Pierre-Andre, ID: 9.87654321E8</description>
+      <amount>800.0</amount>
+      <employeeID>9.87654321E8</employeeID>
+    </ca.mcgill.ecse321.URLMS.model.Paystub>
+    <ca.mcgill.ecse321.URLMS.model.Transaction id="33">
+      <date id="34">2017-12-11</date>
+      <description>Trip to Hawaii</description>
+      <amount>5000.0</amount>
+    </ca.mcgill.ecse321.URLMS.model.Transaction>
+  </transactions>
+  <fundingAccount id="35">
+    <theFundingAccount id="36">
+      <balance>100000.0</balance>
+      <transactions id="37"/>
+    </theFundingAccount>
+  </fundingAccount>
+</lab>

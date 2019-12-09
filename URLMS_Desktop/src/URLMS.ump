@@ -1,0 +1,71 @@
+namespace ca.mcgill.ecse321.URLMS.model;
+
+class Employee
+{
+      String name;
+      String job;
+      double salary;
+      String role;
+      double id;
+1 -> * ProgressUpdate progressUpdates;
+      
+}
+
+class ProgressUpdate
+{
+      String objective;
+      String actualWork;
+      Date date;
+}
+
+class Item
+{
+       String name;
+      double price;
+      int quantity;
+}
+  
+  
+class Transaction
+{
+      Date date;
+      String description;
+      double amount;
+      * -> 0..1 Employee salaryCost;
+      * -> 0..1 Item itemCost;
+}
+
+class Paystub
+{
+  isA Transaction;
+    double employeeID;
+}
+
+class FundingAccount
+{
+      double balance;
+  1 -> * Transaction transactions;
+}
+
+
+class LaboratoryManager
+{
+  1 -> * Employee employees;
+  1 -> * Item items;
+  1 -> * ProgressUpdate progressUpdates;
+  1 -> * Transaction transactions;
+  1 -> * FundingAccount fundingAccount;
+}
+
+class Equipment
+{
+   
+  isA Item;
+}
+
+class Supply
+{
+  
+isA Item;
+ boolean isAvailable;
+}
